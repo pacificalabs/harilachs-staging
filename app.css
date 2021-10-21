@@ -1,6 +1,11 @@
+body {
+  font-family: 'Cinzel', 'serif';
+}
+
 .hl {
-  background-color: #F7838D !important;
-  color: dimgrey !important;
+  /*background-color: #F7838D !important;*/
+  /*color: #473c38 !important;*/
+  color: darkgoldenrod;
 }
 
 .dimgrey {
@@ -12,10 +17,21 @@
   height: auto;
 }
 
-.hl a {
-  color: #2F1F14;
+.hl a, .hl a:hover {
+  /*color: #473c38;*/
+  color: darkgoldenrod;
+}
+
+.hl a:hover {
+  color: darkgoldenrod;
 }
 
 body > div > nav {
-  border-bottom: 1px solid grey;
+  /*border-bottom: 1px solid #473c38;*/
+  border-bottom: 1px solid darkgoldenrod;
+  font-family: 'Cinzel';
+}
+
+.landing-text {
+  font-size: 48px;
 }
