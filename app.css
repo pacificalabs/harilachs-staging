@@ -1,8 +1,21 @@
-.red {
-  color: red;
+.hl {
+  background-color: #F7838D !important;
+  color: dimgrey !important;
 }
 
-.hl {
-  background-color: #F7838D;
-  color: dimgrey;
+.dimgrey {
+  border: 1px solid dimgrey;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.hl a {
+  color: #2F1F14;
+}
+
+body > div > nav {
+  border-bottom: 1px solid grey;
 }
